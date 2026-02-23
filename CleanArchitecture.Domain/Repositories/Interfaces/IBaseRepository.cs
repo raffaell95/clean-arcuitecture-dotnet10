@@ -1,13 +1,12 @@
 ﻿using CleanArchitecture.Domain.Models;
 
-namespace CleanArchitecture.Domain.Repositories.Interfaces
+namespace CleanArchitecture.Domain.Repositories.Interfaces;
+
+public interface IBaseRepository<T> where T : class
 {
-    public interface IBaseRepository<T> where T : class
-    {
-        Task<T> ObterPorId(long id);
-        Task<IEnumerable<T>> ObterTodos();
-        Task Adicionar(T entity);
-        Task Atualizar(T entity);
-        Task Excluir(long id);
-    }
+    Task<T> GetById(long id);
+    Task<IEnumerable<T>> GetAll();
+    Task Add(T entity);
+    Task ToUpdate(T entity);
+    Task Remove(long id);
 }
