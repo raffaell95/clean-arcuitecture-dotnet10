@@ -23,7 +23,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanArchitecture.InfraStru
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{BA31A2C3-A81A-4B09-89D0-7FBE4F140806}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanArchitecture.Tests", "..\..\Downloads\Aula+Testes+Unitarios+CleanArchitecture\CleanArchitecture\CleanArchitecture.Tests\CleanArchitecture.Tests.csproj", "{A67EF07C-1598-4ED9-8810-26BB202BEF1C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanArchitecture.Tests", "CleanArchitecture.Tests\CleanArchitecture.Tests.csproj", "{D91D7E94-C087-4934-8FE7-095DF07E07D9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,10 +51,10 @@ Global
 		{3F1AE3F9-6353-450A-9E2E-38F24A0C10FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3F1AE3F9-6353-450A-9E2E-38F24A0C10FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3F1AE3F9-6353-450A-9E2E-38F24A0C10FB}.Release|Any CPU.Build.0 = Release|Any CPU
-		{A67EF07C-1598-4ED9-8810-26BB202BEF1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A67EF07C-1598-4ED9-8810-26BB202BEF1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A67EF07C-1598-4ED9-8810-26BB202BEF1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A67EF07C-1598-4ED9-8810-26BB202BEF1C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D91D7E94-C087-4934-8FE7-095DF07E07D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D91D7E94-C087-4934-8FE7-095DF07E07D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D91D7E94-C087-4934-8FE7-095DF07E07D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D91D7E94-C087-4934-8FE7-095DF07E07D9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -65,6 +65,6 @@ Global
 		{1F954062-556B-4BB7-9008-7A61D4CB91B6} = {32F927EE-4111-453B-81A9-BB89CD981F14}
 		{1CBFC32B-58F3-4C23-BF51-6D34443C9643} = {32F927EE-4111-453B-81A9-BB89CD981F14}
 		{3F1AE3F9-6353-450A-9E2E-38F24A0C10FB} = {AA59DEC8-ACEF-4D2C-A8F0-5445DAEA637A}
-		{A67EF07C-1598-4ED9-8810-26BB202BEF1C} = {BA31A2C3-A81A-4B09-89D0-7FBE4F140806}
+		{D91D7E94-C087-4934-8FE7-095DF07E07D9} = {BA31A2C3-A81A-4B09-89D0-7FBE4F140806}
 	EndGlobalSection
 EndGlobal
